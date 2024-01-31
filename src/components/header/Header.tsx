@@ -20,8 +20,8 @@ export const Header = () => {
                     </Link>
                 </li>
             
-                <li className={`${url === "/projetos" ? "text-slate-500" : "text-slate-600"}`}>
-                    <Link href="/projetos">
+                <li className={`${url === "/entregas" ? "text-slate-500" : "text-slate-600"}`}>
+                    <Link href="/entregas">
                         Usuários
                     </Link>
                 </li>
