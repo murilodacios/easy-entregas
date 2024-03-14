@@ -30,7 +30,24 @@ export default function Entregas() {
                     <p className='font-medium text-lg'>Entregas</p>
 
 
-            
+                    <div className='grid grid-cols-4 gap-2 min-h-screen'>
+
+                        <div className='border p-4 rounded-sm'>
+                            <p className='text-sm'>Aguardando confirmação</p>
+                        </div>
+
+                        <div className='border p-4 rounded-sm'>
+                            <p className='text-sm'>Em preparação</p>
+                        </div>
+
+                        <div className='border p-4 rounded-sm'>
+                            <p className='text-sm'>Saiu para a entrega</p>
+                        </div>
+
+                        <div className='border p-4 rounded-sm'>
+                            <p className='text-sm'>Entregue</p>
+                        </div>
+                    </div>
 
 
                 </div>

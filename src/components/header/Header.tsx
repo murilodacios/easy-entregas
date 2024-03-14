@@ -11,10 +11,10 @@ export const Header = () => {
     const url = router
 
     return (
-        <div className='flex flex-row justify-between items-center w-full p-4 border border-t-0 border-x-0 bg-slate-900 text-white'>
-            <p className="font-medium">easy<strong>entregas</strong></p>
+        <div className='flex flex-row justify-between items-center w-full p-6 border border-t-0 border-x-0 '>
+            <img src="/logo.svg" alt="" className="w-12"/>
            
-           <ul className='flex flex-row gap-4 text-sm items-center'>
+           {/* <ul className='flex flex-row gap-4 text-sm items-center'>
                 <li className={`${url === "/" ? "text-slate-500" : "text-slate-600"}`}>
                     <Link href="/">
                         Painel
@@ -27,7 +27,7 @@ export const Header = () => {
                     </Link>
                 </li>
                 
-            </ul>
+            </ul> */}
            
             <div className="flex flex-row gap-2 items-center">
                 <div className="flex flex-row gap-2 items-center">
